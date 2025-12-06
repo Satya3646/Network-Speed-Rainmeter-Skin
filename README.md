@@ -1,4 +1,4 @@
-# Network Monitor – Rainmeter Skin
+# Network Speed – Rainmeter Skin
 
 A compact Rainmeter widget that displays real-time Upload and Download network speeds in a clean, minimal panel.
 
@@ -34,25 +34,18 @@ The skin uses two built-in Rainmeter measures:
 
 Both values refresh every **1000 ms**, ensuring smooth and stable updates.
 
-The panel is rendered using two layered shapes:
-
-- Primary rounded rectangle  
-- Translucent header strip  
-
-Indicator bars use Rainmeter’s built-in `Bar` meter with `HORIZONTAL` orientation.
-
 ---
 
 ## Performance Cost
 
-The skin is rendered from a single `network_monitor.ini` file, keeping overhead extremely low.
+The skin is rendered from a single `network_speed.ini` file, keeping overhead extremely low.
 
 Typical system usage:
 
 - **RAM:** ~10–30 MB depending on system  
 - **CPU:** ~0% in steady state  
 
-The runtime footprint is negligible and suitable for permanent desktop use.
+The runtime footprint is therefore extremely low and imposes no meaningful load on the system.
 
 ---
 
@@ -66,3 +59,5 @@ You may adjust:
 - Primary font and text sizes  
 - Bar colors, bar height, and background opacity  
 - Maximum upload and download speeds (affects bar scaling)
+
+This is optional; the skin works out-of-the-box with the default theme.
